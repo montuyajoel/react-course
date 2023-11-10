@@ -2,7 +2,7 @@ import { CORE_CONCEPTS, EXAMPLES } from "../../data/data";
 import TabButton from "../Buttons/TabButton";
 import './CoreConcepts.css';
 import Topics from "./Topics";
-import { useState } from "react"; //all things that start use are reacthooks
+import { useState, Fragment } from "react"; //all things that start use are reacthooks
 import Cards from "./Cards";
 
 function CoreConcepts() {
@@ -15,7 +15,7 @@ function CoreConcepts() {
   }
 
   return (
-    <div>
+    <Fragment>
     <section id="core-concepts">
       <h2>Core Concepts</h2>
       <ul>
@@ -49,7 +49,7 @@ function CoreConcepts() {
         }
       </section>
     </section>
-    </div>
+    </Fragment>
   );
 }
 

@@ -1,15 +1,16 @@
 import Header from "./components/Headers/Header";
 import CoreConcepts from "./components/CoreConcepts/CoreConcepts";
+import { Fragment } from "react";
 //reusable components, this can be also: function CoreConcept({image, title, description})
 
 function App() {
   return (
-    <div>
+    <Fragment>
       <Header />
       <main>
       <CoreConcepts />
       </main>
-    </div>
+    </Fragment>
   );
 }
 
