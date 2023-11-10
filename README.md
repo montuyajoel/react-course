@@ -1,3 +1,3 @@
 # react-course
 
-All files are related to React course
+Section 3: React basics - core concepts like props, events, dynamic list, components and etc.
